@@ -10,3 +10,5 @@ commonLabels:
 
 resources:
 - ../../../apps/vecnehladny-ambulance-ufe
+components:
+ - ../../../components/version-developers
