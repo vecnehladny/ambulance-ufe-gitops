@@ -8,6 +8,11 @@ spec:
                      # - umiestnený v namespace wac-hospital
   navigation:
     - element: vecnehladny-ambulance-wl-app    # element, ktorý bude vložený na stránku
+      attributes:
+      - name: api-base
+        value: http://localhost:5000/api
+      - name: ambulance-id
+        value: bobulova
                                     # pri navigácii na zoznam čakajúcich
       path: vecnehladny-ambulance-wl      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: Zoznam čakajúcich vecnehladny      # názov mikro aplikácie
@@ -15,6 +20,6 @@ spec:
   preload: false                    # určuje, či má byť web komponent načítaný spolu s hlavnou stránkou
   proxy: true                       # pre komponenty v rámci klastra, neprístupné na verejnej sieti
                                     # musí byť táto hodnota nastavená na true
-  hash-suffix: v1alpha1             # voliteľný suffix pre načítanie modulu web komponentu - jeho zmenou
+  hash-suffix: v1alpha2             # voliteľný suffix pre načítanie modulu web komponentu - jeho zmenou
                                     # sa mení názov URL pre modul a tým je možné predísť problémom
                                     # s verziami vo vyrovnávacích pamätiach
