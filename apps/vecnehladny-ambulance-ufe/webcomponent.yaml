@@ -7,7 +7,7 @@ spec:
                      # module web komponentu pre tento mikroFE
                      # - umiestnený v namespace wac-hospital
   navigation:
-    - element: vecnehladny-ambulance-wl-list    # element, ktorý bude vložený na stránku
+    - element: vecnehladny-ambulance-wl-app    # element, ktorý bude vložený na stránku
                                     # pri navigácii na zoznam čakajúcich
       path: vecnehladny-ambulance-wl      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: Zoznam čakajúcich vecnehladny      # názov mikro aplikácie
