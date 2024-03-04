@@ -8,8 +8,8 @@ spec:
  ref:
      branch: main
  timeout: 1m0s
- url: https://github.com/vecnehladny/ambulance-gitops
- secretRef:
-    name: repository-pat
-    timeout: 1m0s
-    url: https://github.com/vecnehladny/ambulance-ufe-gitops
+ url: https://github.com/vecnehladny/ambulance-ufe-gitops
+
+# ak používate privátny repozitár nezabudnite doplniť autentifikačné údaje
+# secretRef:
+#    name: vecnehladny-repository-pat
