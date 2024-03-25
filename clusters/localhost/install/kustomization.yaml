@@ -10,5 +10,9 @@ commonLabels:
 
 resources:
 - ../../../apps/vecnehladny-ambulance-ufe
+- ../../../apps/vecnehladny-ambulance-webapi
 components:
  - ../../../components/version-developers
+ - https://github.com/vecnehladny/ambulance-webapi//deployments/kustomize/components/mongodb
+patches:
+ - path: patches/ambulance-webapi.service.yaml
