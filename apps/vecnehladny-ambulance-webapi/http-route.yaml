@@ -27,16 +27,16 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /<pfx>-openapi-ui
+            value: /vecnehladny-openapi-ui
       backendRefs:
         - group: ""
           kind: Service
-          name: <pfx>-openapi-ui
+          name: vecnehladny-openapi-ui
           port: 80
     - matches:
         - path:
             type: Exact
-            value: /<pfx>-openapi
+            value: /vecnehladny-openapi
       filters:
         - type: URLRewrite
           urlRewrite:
@@ -46,5 +46,5 @@ spec:
       backendRefs:
         - group: ""
           kind: Service
-          name: <pfx>-ambulance-webapi
+          name: vecnehladny-ambulance-webapi
           port: 80
