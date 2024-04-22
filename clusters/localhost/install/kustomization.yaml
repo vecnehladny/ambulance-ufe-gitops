@@ -11,6 +11,7 @@ commonLabels:
 resources:
 - ../../../apps/vecnehladny-ambulance-ufe
 - ../../../apps/vecnehladny-ambulance-webapi
+- ../../../apps/mongo-express
 components:
  - ../../../components/version-developers
  - https://github.com/vecnehladny/ambulance-webapi//deployments/kustomize/components/mongodb
